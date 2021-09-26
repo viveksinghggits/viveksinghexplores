@@ -1,0 +1,10 @@
+apiVersion: viveksingh.dev/v1beta1
+kind: Kluster
+metadata:
+  name: beta-kluster
+spec:
+  nodes:
+  - sizeSlug: s-2vcpu-2gb
+    quantity: 2
+  - sizeSlug: s-4vcpu-4gb
+    quantity: 1

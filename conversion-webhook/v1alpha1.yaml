@@ -1,0 +1,9 @@
+apiVersion: viveksingh.dev/v1alpha1
+kind: Kluster
+metadata:
+  name: alpha-kluster
+spec:
+  nodes:
+  - s-2vcpu-2gb
+  - s-2vcpu-2gb
+  - s-4vcpu-4gb
